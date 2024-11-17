@@ -12,6 +12,11 @@ function App() {
     setShowProductList(true);
   };
 
+  const handleContinueShopping = () => {
+    // Hier könntest du den Benutzer weiterleiten, z. B. zu einer Produktliste-Seite
+    setShowProductList(true);  // Beispiel: Weiterleitung zur Produktseite
+  };
+
   return (
     <div className="app-container">
       <div className={`landing-page ${showProductList ? 'fade-out' : ''}`}>

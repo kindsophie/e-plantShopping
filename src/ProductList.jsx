@@ -15,7 +15,7 @@ function ProductList() {
            [product.name]: true, // Set the product name as key and value as true to indicate it's added to cart
          }));
       };
-
+                      
     const plantsArray = [
         {
             category: "Air Purifying Plants",
